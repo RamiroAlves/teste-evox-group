@@ -1,12 +1,10 @@
-//const NewsAPI = require("newsapi");
-//const newsapi = new NewsAPI("10890d35718040fcb966850257cedf7f");
 const loaderContainer = document.querySelector(".loader");
 const body = document.querySelector("#document");
 const searchInput = document.querySelector("#search");
 
 //let page = 1;
 
-const url = `https://newsapi.org/v2/top-headlines?country=br&&apiKey=10890d35718040fcb966850257cedf7f`;
+const url = `https://newsapi.org/v2/top-headlines?country=br&&apiKey=#############################`;
 var req = new Request(url);
 
 const options = {
